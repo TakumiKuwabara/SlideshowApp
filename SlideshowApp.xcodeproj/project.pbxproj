@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		5287860625E766BA00F88724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287860525E766BA00F88724 /* AppDelegate.swift */; };
 		5287860825E766BA00F88724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287860725E766BA00F88724 /* SceneDelegate.swift */; };
-		5287860A25E766BA00F88724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287860925E766BA00F88724 /* ViewController.swift */; };
 		5287860D25E766BA00F88724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287860B25E766BA00F88724 /* Main.storyboard */; };
 		5287860F25E766BB00F88724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5287860E25E766BB00F88724 /* Assets.xcassets */; };
 		5287861225E766BB00F88724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287861025E766BB00F88724 /* LaunchScreen.storyboard */; };
+		5287861B25E7951D00F88724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287861A25E7951D00F88724 /* ViewController.swift */; };
+		5287861E25E7954D00F88724 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287861D25E7954D00F88724 /* ZoomViewController.swift */; };
+		5287862525E7996200F88724 /* gazou1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5287862425E7996200F88724 /* gazou1.png */; };
+		5287862825E7996B00F88724 /* gazou2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5287862725E7996B00F88724 /* gazou2.png */; };
+		5287862B25E7997300F88724 /* gazou3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5287862A25E7997300F88724 /* gazou3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5287860225E766BA00F88724 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287860525E766BA00F88724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5287860725E766BA00F88724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5287860925E766BA00F88724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5287860C25E766BA00F88724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5287860E25E766BB00F88724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5287861125E766BB00F88724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5287861325E766BB00F88724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5287861A25E7951D00F88724 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Downloads/ViewController.swift; sourceTree = "<group>"; };
+		5287861D25E7954D00F88724 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomViewController.swift; path = ../../../Downloads/ZoomViewController.swift; sourceTree = "<group>"; };
+		5287862425E7996200F88724 /* gazou1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou1.png; sourceTree = "<group>"; };
+		5287862725E7996B00F88724 /* gazou2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou2.png; sourceTree = "<group>"; };
+		5287862A25E7997300F88724 /* gazou3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		5287860425E766BA00F88724 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				5287862425E7996200F88724 /* gazou1.png */,
+				5287862725E7996B00F88724 /* gazou2.png */,
+				5287862A25E7997300F88724 /* gazou3.png */,
 				5287860525E766BA00F88724 /* AppDelegate.swift */,
 				5287860725E766BA00F88724 /* SceneDelegate.swift */,
-				5287860925E766BA00F88724 /* ViewController.swift */,
+				5287861A25E7951D00F88724 /* ViewController.swift */,
+				5287861D25E7954D00F88724 /* ZoomViewController.swift */,
 				5287860B25E766BA00F88724 /* Main.storyboard */,
 				5287860E25E766BB00F88724 /* Assets.xcassets */,
 				5287861025E766BB00F88724 /* LaunchScreen.storyboard */,
@@ -125,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5287861225E766BB00F88724 /* LaunchScreen.storyboard in Resources */,
+				5287862525E7996200F88724 /* gazou1.png in Resources */,
+				5287862825E7996B00F88724 /* gazou2.png in Resources */,
+				5287862B25E7997300F88724 /* gazou3.png in Resources */,
 				5287860F25E766BB00F88724 /* Assets.xcassets in Resources */,
 				5287860D25E766BA00F88724 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5287860A25E766BA00F88724 /* ViewController.swift in Sources */,
+				5287861E25E7954D00F88724 /* ZoomViewController.swift in Sources */,
 				5287860625E766BA00F88724 /* AppDelegate.swift in Sources */,
+				5287861B25E7951D00F88724 /* ViewController.swift in Sources */,
 				5287860825E766BA00F88724 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
